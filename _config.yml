@@ -1,3 +1,62 @@
-theme: jekyll-theme-minimal
-title: Abin's homepage
-description: Bookmark this to keep an eye on my project updates!
+# Site settings
+title: Management Research Blog
+tagline: Insights on Corporate Finance and Management
+description: > 
+  A blog dedicated to sharing research insights and learnings 
+  in management, corporate finance, and business strategy.
+baseurl: ""
+url: ""
+github_username:  abinabraham23
+linkedin_username: abinabraham23
+
+# Author settings
+author:
+  name: Abin Abraham
+  email: abinabrahamreal@gmail.com
+  bio: Management researcher and student, passionate about corporate finance, strategy, and data analytics.
+  avatar: /images/profile.jpg
+  social_links:
+    linkedin: https://linkedin.com/in/abinabraham23
+    github: https://github.com/abinabraham23
+
+# Build settings
+markdown: kramdown
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Excerpt settings
+excerpt_separator: <!--more-->
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Empty plugins array to ensure no feed plugin is loaded
+plugins: []  
