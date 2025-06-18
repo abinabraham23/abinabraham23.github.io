@@ -5,7 +5,7 @@ title: Home
 
 <div class="home-container">
   <div class="posts-section">
-    <h1 class="page-heading">Latest Research & Insights</h1>
+    <h1 class="page-heading">The Latest Lore from the Halls of Thought</h1>
     
     {% for post in site.posts %}
       <article class="post-preview">
@@ -37,7 +37,7 @@ title: Home
   <aside class="profile-sidebar">
     <div class="profile-card">
       <div class="profile-header">
-        <img src="{{ site.author.avatar | default: '/images/profile-placeholder.svg' | relative_url }}" alt="{{ site.author.name }}" class="profile-avatar">
+        <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" class="profile-avatar">
         <h2 class="profile-name">{{ site.author.name }}</h2>
       </div>
       
@@ -77,10 +77,10 @@ title: Home
           <strong>{{ site.posts | size }}</strong>
           <span>Posts</span>
         </div>
-        <div class="stat">
+        <!-- <div class="stat">
           <strong>{{ site.categories | size }}</strong>
           <span>Topics</span>
-        </div>
+        </div> -->
       </div>
     </div>
   </aside>

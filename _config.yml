@@ -1,9 +1,9 @@
 # Site settings
-title: Management Research Blog
-tagline: Insights on Corporate Finance and Management
+title: "The Golden Ledger: Wisdom from the Halls of Commerce"
+tagline: Insights on Corporate Finance, Business Strategy and Data Analyics
 description: > 
-  A blog dedicated to sharing research insights and learnings 
-  in management, corporate finance, and business strategy.
+  A blog dedicated to sharing my learnings and research insights
+  in corporate finance, business strategy and data analytics.
 baseurl: ""
 url: ""
 github_username:  abinabraham23
@@ -13,7 +13,7 @@ linkedin_username: abinabraham23
 author:
   name: Abin Abraham
   email: abinabrahamreal@gmail.com
-  bio: Management researcher and student, passionate about corporate finance, strategy, and data analytics.
+  bio: Management student and continuous learner, passionate about all things Technology. Exploring corporate finance, business strategy and data analytics.
   avatar: /images/profile.jpg
   social_links:
     linkedin: https://linkedin.com/in/abinabraham23

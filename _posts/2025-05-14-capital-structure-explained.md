@@ -1,7 +1,8 @@
 Understanding the optimal mix of debt and equity financing is important for corporate success. This post explores the fundamentals of capital structure theory and its practical applications.
 Capital structure represents one of the most fundamental decisions in corporate finance. It determines how a company finances its operations and growth through different sources of funds.
+<!--more-->
 
-What is Capital Structure?
+**What is Capital Structure?**
 Capital structure refers to the specific mixture of debt and equity used by a company to finance its overall operations and growth. The decision of how much debt versus equity to use is one of the most important ones that financial managers must make.
 
 Let me share a story that perfectly illustrates capital structure decisions, one that plays out in businesses everywhere.
